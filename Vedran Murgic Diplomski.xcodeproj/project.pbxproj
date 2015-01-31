@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B2036451A7CFE4D004CE212 /* crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2036441A7CFE4D004CE212 /* crosshair.png */; };
 		0BA861AB1A7ADC5E00C08CDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA861AA1A7ADC5E00C08CDF /* main.m */; };
 		0BA861AE1A7ADC5E00C08CDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA861AD1A7ADC5E00C08CDF /* AppDelegate.m */; };
 		0BA861B01A7ADC5E00C08CDF /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0BA861AF1A7ADC5E00C08CDF /* Shader.fsh */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B2036441A7CFE4D004CE212 /* crosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshair.png; sourceTree = "<group>"; };
 		0BA861A51A7ADC5D00C08CDF /* Vedran Murgic Diplomski.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vedran Murgic Diplomski.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA861A91A7ADC5E00C08CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BA861AA1A7ADC5E00C08CDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		0BA861D21A7AED9300C08CDF /* slike */ = {
 			isa = PBXGroup;
 			children = (
+				0B2036441A7CFE4D004CE212 /* crosshair.png */,
 			);
 			name = slike;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				0BA861B81A7ADC5E00C08CDF /* Main.storyboard in Resources */,
 				0BA861BA1A7ADC5E00C08CDF /* Images.xcassets in Resources */,
 				0BA861B21A7ADC5E00C08CDF /* Shader.vsh in Resources */,
+				0B2036451A7CFE4D004CE212 /* crosshair.png in Resources */,
 				0BA861B01A7ADC5E00C08CDF /* Shader.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +434,7 @@
 				0BA861CE1A7ADC5E00C08CDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BA861CF1A7ADC5E00C08CDF /* Build configuration list for PBXNativeTarget "Vedran Murgic DiplomskiTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +443,7 @@
 				0BA861D11A7ADC5E00C08CDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

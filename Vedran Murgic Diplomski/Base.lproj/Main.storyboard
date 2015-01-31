@@ -77,22 +77,59 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KpU-Qx-7Ao">
+                                <rect key="frame" x="16" y="528" width="76" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xSh-Pe-OXT">
+                                <rect key="frame" x="100" y="528" width="76" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUC-7c-Xnn">
+                                <rect key="frame" x="184" y="528" width="76" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="crosshair.png" translatesAutoresizingMaskIntoConstraints="NO" id="FSt-ye-Nfp">
+                                <rect key="frame" x="275" y="275" width="50" height="50"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLX-Vb-jNZ">
+                                <rect key="frame" x="508" y="528" width="76" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="JoA-TQ-eCO" secondAttribute="trailing" constant="158" id="1JI-5K-QmX"/>
+                            <constraint firstItem="KpU-Qx-7Ao" firstAttribute="leading" secondItem="3se-qz-xqx" secondAttribute="leadingMargin" id="1gj-Yh-Hyy"/>
                             <constraint firstItem="Nts-ri-yRQ" firstAttribute="leading" secondItem="3se-qz-xqx" secondAttribute="leadingMargin" id="2pp-x0-mWh"/>
+                            <constraint firstItem="sUC-7c-Xnn" firstAttribute="leading" secondItem="xSh-Pe-OXT" secondAttribute="trailing" constant="8" id="2ys-7J-lPH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hEL-DW-8ll" secondAttribute="trailing" constant="158" id="65d-gZ-WG6"/>
+                            <constraint firstItem="xSh-Pe-OXT" firstAttribute="leading" secondItem="KpU-Qx-7Ao" secondAttribute="trailing" constant="8" id="6gL-BB-3NJ"/>
                             <constraint firstItem="9sR-iE-XCP" firstAttribute="trailing" secondItem="3se-qz-xqx" secondAttribute="trailingMargin" id="7Ts-Jr-ia0"/>
+                            <constraint firstAttribute="centerX" secondItem="FSt-ye-Nfp" secondAttribute="centerX" id="CRN-lo-DWA"/>
+                            <constraint firstAttribute="centerY" secondItem="FSt-ye-Nfp" secondAttribute="centerY" id="HQD-Z9-q5d"/>
+                            <constraint firstItem="qHh-Mt-9TT" firstAttribute="top" secondItem="xSh-Pe-OXT" secondAttribute="bottom" constant="20" id="JI9-kr-ViX"/>
                             <constraint firstItem="z8u-14-LxC" firstAttribute="top" secondItem="3se-qz-xqx" secondAttribute="topMargin" constant="18" id="Nt0-cX-AXi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="z8u-14-LxC" secondAttribute="trailing" constant="158" id="PLO-Fo-M2U"/>
                             <constraint firstItem="JoA-TQ-eCO" firstAttribute="top" secondItem="8aa-yV-Osq" secondAttribute="bottom" constant="15" id="Pwz-bW-2Dk"/>
+                            <constraint firstItem="qHh-Mt-9TT" firstAttribute="top" secondItem="sUC-7c-Xnn" secondAttribute="bottom" constant="20" id="RiO-H7-nLs"/>
                             <constraint firstItem="hEL-DW-8ll" firstAttribute="top" secondItem="z8u-14-LxC" secondAttribute="bottom" constant="13" id="YLf-oI-vdf"/>
                             <constraint firstItem="TPD-la-WrU" firstAttribute="trailing" secondItem="3se-qz-xqx" secondAttribute="trailingMargin" id="aXJ-84-PEg"/>
                             <constraint firstItem="WIm-8i-ZAE" firstAttribute="top" secondItem="TPD-la-WrU" secondAttribute="bottom" constant="15" id="dCC-5q-voP"/>
+                            <constraint firstItem="qHh-Mt-9TT" firstAttribute="top" secondItem="KpU-Qx-7Ao" secondAttribute="bottom" constant="20" id="fSY-Qv-3iO"/>
                             <constraint firstItem="Nts-ri-yRQ" firstAttribute="top" secondItem="8aa-yV-Osq" secondAttribute="bottom" id="gHR-Ed-KBW"/>
+                            <constraint firstItem="qHh-Mt-9TT" firstAttribute="top" secondItem="fLX-Vb-jNZ" secondAttribute="bottom" constant="20" id="iX4-bp-4d1"/>
                             <constraint firstItem="TPD-la-WrU" firstAttribute="top" secondItem="9sR-iE-XCP" secondAttribute="bottom" constant="15" id="mNz-2N-K9I"/>
                             <constraint firstItem="9sR-iE-XCP" firstAttribute="top" secondItem="8aa-yV-Osq" secondAttribute="bottom" constant="8" id="nYk-sL-bZ5"/>
+                            <constraint firstItem="fLX-Vb-jNZ" firstAttribute="trailing" secondItem="3se-qz-xqx" secondAttribute="trailingMargin" id="rxu-y1-jHf"/>
                             <constraint firstItem="WIm-8i-ZAE" firstAttribute="trailing" secondItem="3se-qz-xqx" secondAttribute="trailingMargin" id="tvR-P1-CF2"/>
                         </constraints>
                     </view>
@@ -142,4 +179,7 @@
             <point key="canvasLocation" x="7" y="421"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="crosshair.png" width="44" height="45"/>
+    </resources>
 </document>
